@@ -7,7 +7,16 @@
   <meta name="description" content="A small sample website.">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="is-loading">
+  <div class="loader" id="loader" role="status" aria-label="Loading">
+    <div class="loader-art">
+      <span class="loader-shadow loader-shadow--sit"></span>
+      <span class="loader-shadow loader-shadow--leap"></span>
+      <img class="rabbit rabbit--sit" src="img/rabbit-sit.png" alt="">
+      <img class="rabbit rabbit--leap" src="img/rabbit-leap.png" alt="">
+    </div>
+  </div>
+
   <header class="site-header">
     <a class="logo" href="#">Sample<span>Site</span></a>
     <nav>
