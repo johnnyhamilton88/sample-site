@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Site</title>
+  <meta name="description" content="A small sample website.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">Sample<span>Site</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>A plain little website.</h1>
+      <p>One HTML file, one stylesheet, a few lines of JavaScript. Swap in your own words and it's yours.</p>
+      <a class="button" href="#features">Have a look</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>This is a starting point. There's no build step and nothing to install. Open <code>index.html</code> in a browser and you're looking at it.</p>
+    </section>
+
+    <section id="features" class="section">
+      <h2>Features</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Fast</h3>
+          <p>No frameworks, so it loads almost instantly.</p>
+        </article>
+        <article class="card">
+          <h3>Responsive</h3>
+          <p>The layout reflows for phones, tablets and desktops.</p>
+        </article>
+        <article class="card">
+          <h3>Easy to edit</h3>
+          <p>Change the text in one file and push. That's it.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Say hello: <a href="mailto:hello@example.com">hello@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Sample Site</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
